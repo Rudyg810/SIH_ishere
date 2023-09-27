@@ -7,7 +7,7 @@ const BusinessCollaborationForm = () => {
 
   const onLearnMoreClick = useCallback(() => {
     navigate("/partner");
-  }, [navigate]);
+  }, [navigate]); 
 
   return (
     <div className={styles.businessCollaboration}>
